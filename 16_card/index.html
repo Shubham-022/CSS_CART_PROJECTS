@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            width: 100vw;
+            height:100vh;
+            background-color: #0093E9;
+            background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            /* flex-direction: row; */
+
+        }
+        .card{
+            width: 50%;
+            height:40%;
+            background-color: rgb(225, 222, 222);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: row;
+        }
+        .leftbox{
+            width:50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            /* padding: 40px; */
+            /* text-align: center; */
+            
+            background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+
+            gap: 40px;
+            
+            
+        }
+        #para1{
+            font-size: large;
+            width: 75%;
+            padding-left: 64px;
+            display: flex;
+            justify-content: center;
+
+
+            
+        }
+        .h1{
+            padding-left: 60px;
+            padding-top: 20px;
+        }
+        .rightbox{
+            width: 50%;
+            height: 100%;
+        }
+        .rightbox img{
+            width: 100%;
+            height: 100%;
+            /* border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px; */
+        }
+        
+        .nums{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-evenly;
+        }
+        .num1{
+            display: flex;
+            flex-direction: column;
+        }
+        .num2{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .num3{
+            display: flex;
+            flex-direction: column;
+        }
+        .num3 p{
+            padding-left:10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="leftbox">
+                <div class="h1">
+
+                    <h1 class="head1">Get insights that help your business grow</h1>
+                </div>
+                <p id="para1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In deleniti minus a inventore exercitationem magnam sint veniam incidunt dolore cum!</p>
+                
+                <div class="nums">
+                    <div class="num1">
+                        <h2>10K+</h2>
+                        <p>Comments</p>
+                    </div>
+                    <div class="num2">
+                        <h2>214</h2>
+                        <p>Paid Users</p>
+                    </div>
+                    <div class="num3">
+                        <h2>12M+</h2>
+                        <p>Year</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rightbox">
+                <img src="OIP (1).jpeg" alt="img">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
